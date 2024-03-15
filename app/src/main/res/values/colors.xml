@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="orange">#D58500</color>
+    <color name="primary">#0024D6</color>
+    <color name="primary2">#FB4054</color>
+    <color name="green">#009A06</color>
+    <color name="yellow">#FFEB3C</color>
+    <color name="gray">#A3A3A3</color>
+    <color name="background">#FFFFFF</color>
+
+    <color name="fadeBlue">#0D0024D6</color>
+    <color name="fadeRed">#0DFB4054</color>
+    <color name="fadeOrange">#0DD58500</color>
+    <color name="fadeGreen">#1A009A06</color>
+
+    <color name="secondary">#242937</color>
+    <color name="dark_grey">#4E596F</color>
+    <color name="mid_grey">#4F4F4F</color>
+
+</resources>

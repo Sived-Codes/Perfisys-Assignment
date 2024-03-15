@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/_6sdp"
+    android:layout_marginHorizontal="@dimen/_4sdp"
+    app:cardCornerRadius="@dimen/_14sdp"
+    android:backgroundTint="@color/secondary">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/quoteCardLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            app:cardCornerRadius="@dimen/_14sdp">
+
+            <ImageView
+                android:id="@+id/quoteImage"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_400sdp"
+                android:maxHeight="@dimen/_500sdp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/img" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/quoteCardLayout"
+            android:orientation="horizontal"
+            android:padding="@dimen/_10sdp">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_18sdp"
+                android:layout_weight="1"
+                android:src="@drawable/icn_red_heart" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_18sdp"
+                android:layout_weight="1"
+                android:src="@drawable/icn_downlaod" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_18sdp"
+                android:layout_weight="1"
+                android:src="@drawable/icn_share" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</com.google.android.material.card.MaterialCardView>
